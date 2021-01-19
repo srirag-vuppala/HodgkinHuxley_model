@@ -53,7 +53,7 @@ class HodgkinHuxley():
     
         # Input stimulus giver
     def Input_stimuli(self, t):
-        """ Current applied to create stimulus which is dependent on time, in Ampere(A) """
+        """ Current applied to create stimulus which is dependent on time, in milli Ampere(A)/cm^2 """
         if 0.0 < t < 1.0:
             return 150.0
         elif 10.0 < t < 30.0:
